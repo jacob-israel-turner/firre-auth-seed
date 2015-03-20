@@ -1,0 +1,20 @@
+{
+  "name": "firre-auth-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack -w & nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^4.7.16",
+    "babel-core": "^4.7.16",
+    "babel-loader": "^4.2.0",
+    "koa": "^0.18.1",
+    "koa-router": "^4.2.0",
+    "webpack": "^1.7.3"
+  }
+}
